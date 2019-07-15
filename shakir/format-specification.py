@@ -25,4 +25,4 @@ print('{0:9} | {1:>8.2f}'.format('Onions', 10))
 
 persons=2
 cost=102
-print('There are {0} persons who got {1} Rupees each and In total they have ' f"{1}*{1}".format(persons,cost))
+print('There are {0} persons who got {1} Rupees each and In total they have {2}'.format(persons,cost,persons*cost))
