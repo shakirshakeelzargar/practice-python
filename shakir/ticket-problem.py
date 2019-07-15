@@ -67,7 +67,9 @@ else:
                     Total Amount Without Discount : {}
                     Discount Percentage : {} 
                     Total Amount To Be Paid : {}'''
-        print(invoiceMessage.format(priceOfTicket,numberOfPassengers,didPriceFall,byHowMuchTicketFall,newPriceOfTicket,insuranceAmountInRupees,numberOfPassengers*newPriceOfTicket,discountPercentage,totalBill))
+        print(invoiceMessage.format(priceOfTicket,numberOfPassengers,
+        didPriceFall,byHowMuchTicketFall,newPriceOfTicket,insuranceAmountInRupees,
+        numberOfPassengers*newPriceOfTicket,discountPercentage,totalBill))
     elif(didPriceFall=='n'):
         finalTicketPrice=(numberOfPassengers*priceOfTicket)-((numberOfPassengers*priceOfTicket)*discountPercentage/100)
         finalInsurance=(numberOfPassengers*insuranceAmountInRupees)
