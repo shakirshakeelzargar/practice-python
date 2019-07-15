@@ -6,7 +6,7 @@ The following are the areas will be covered in this Training Session
 
 ## Contents 
 
-### Fundamentals
+### Beginner
 
 - [x] Python Versions
 - [x] Python Packages (pip)
@@ -23,7 +23,7 @@ The following are the areas will be covered in this Training Session
 - [ ] File IO, Paths
 - [ ] requirements.txt
 
-### Advanced
+### Intermediate
 
 - [ ] Modules,Classes
 - [ ] Python Libraries/Packages related to ETL
@@ -32,6 +32,9 @@ The following are the areas will be covered in this Training Session
 
 ### Exercises
 - [Manigandan](mani/)
+- [Swathi](swathi/)
+- [Shakir](shakir/)
+- [Prithiba](prithiba/)
 
 
 
