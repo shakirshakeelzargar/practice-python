@@ -24,3 +24,9 @@ print(testMessage.format(quantity, item, price, totalCost=quantity*price))
 
 #Exercide 3: Decimal and Floating formatting
 print("Test :{0:4d}, Portal :{1:8.2f}".format(151, 354.59977)) 
+data = {'first': 'Test', 'last': 'Formatting'}
+print('{d[first]} {d[last]}'.format(d=data))
+print('{0:>20} | {1:<10}|{2:2.3f}'.format('python', 'test',90.99))
+print('{:{align}{width}}'.format('test', align='^', width='10'))
+data1 = [4, 8, 15, 16, 23, 42]
+print('{d[4]} {d[5]}'.format(d=data1))
