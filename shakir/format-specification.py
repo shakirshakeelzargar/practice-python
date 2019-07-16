@@ -26,3 +26,12 @@ print('{0:9} | {1:>8.2f}'.format('Onions', 10))
 persons=2
 cost=102
 print('There are {0} persons who got {1} Rupees each and In total they have {2}'.format(persons,cost,persons*cost))
+
+
+text= input('Enter a text ')
+text_length = len(text)
+# Determine the length of the input.Text_length = len(text)# Make the border the same size as the input.
+
+print('              {}'.format('_' * text_length))
+print('            < {} >'.format(text))
+print('              {}'.format('-' * text_length))
