@@ -30,3 +30,7 @@ print('{0:>20} | {1:<10}|{2:2.3f}'.format('python', 'test',90.99))
 print('{:{align}{width}}'.format('test', align='^', width='10'))
 data1 = [4, 8, 15, 16, 23, 42]
 print('{d[4]} {d[5]}'.format(d=data1))
+
+
+#Learning Summary
+{Placeholder:DisplayPadding.DecimalPrecision}
