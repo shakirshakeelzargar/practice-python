@@ -50,3 +50,22 @@ def printBookDetails():
 
 getBookDetails() 
 printBookDetails()
+
+'''
+Output:
+-----------------
+Enter the Book id: 1
+Enter the Book Name: succinitu
+Enter the Book Author Name: Jason
+Enter the price of the book: 100
+Do you want to enter another book details (Y or N): Y
+Enter the Book id: 2
+Enter the Book Name: Java
+Enter the Book Author Name: Orilley
+Enter the price of the book: 150
+Do you want to enter another book details (Y or N): N
+Following are the book details:
+------------------------------
+Book Id : 1, Name : succinitu, Author : Jason, Price : 100
+Book Id : 2, Name : Java, Author : Orilley, Price : 150
+'''
