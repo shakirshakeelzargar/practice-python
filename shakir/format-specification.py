@@ -18,7 +18,7 @@ print('{0:9} | {1:<8.2f}'.format('Asparagus', 2.33333))
 print('{0:9} | {1:<8.2f}'.format('Onions', 10))
 
 print("########################################################")
-print('{0:8} | {1:>8}'.format('Vegetable', 'Quantity'))
+print('{0:9} | {1:>8}'.format('Vegetable', 'Quantity'))
 print('{0:9} | {1:>8.3f}'.format('Asparagus', 2.8947))
 print('{0:9} | {1:>8.2f}'.format('Onions', 10))
 
