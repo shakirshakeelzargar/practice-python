@@ -56,6 +56,32 @@ else:
         print("=========================")
 
 
+#output
+'''
+Enter no of books2
+Enter book id : 10000
+Enter book name : 1stbook
+Enter book author : firstauthor
+Enter book price : 1000
+Enter book id : 20000
+Enter book name : 2ndbook
+Enter book author : secondauthor
+Enter book price : 2000
+1
+Book Id : 10000
+Book name : 1stbook
+Book Authorr : firstauthor
+Book Priceee : 1000
+=========================
+2
+Book Id : 20000
+Book name : 2ndbook
+Book Authorr : secondauthor
+Book Priceee : 2000
+=========================
+'''
+
+
 #Read file by line(user input)
 prompt=input("Enter 'read' to read or 'write' to write the file : ")
 if(prompt=='read'):
@@ -75,6 +101,13 @@ elif(prompt=='write'):
         f.close()
 else:
     print("Invalid entry")
+
+#output
+'''
+Enter 'read' to read or 'write' to write the file : read
+Enter the line you wish to read : 1464
+rrrrrrrrrrrr 
+'''
 
 
         
