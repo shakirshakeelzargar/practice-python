@@ -35,6 +35,7 @@ The following are the areas will be covered in this Training Session
 - [Swathi](swathi/)
 - [Shakir](shakir/)
 - [Prithiba](prithiba/)
+- [LingaRajan](lingarajan/)
 
 
 
