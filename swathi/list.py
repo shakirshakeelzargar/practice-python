@@ -17,3 +17,20 @@ print('-'*30)
 
 for books in list1:
     print(books)
+    
+----------output---------
+
+enter the bookid
+1001
+you entered number
+enter the bookname
+python
+Enter the Authorname
+swathi
+enter the price
+1000
+------------------------------
+1001
+python
+swathi
+1000.0

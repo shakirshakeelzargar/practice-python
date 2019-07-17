@@ -21,3 +21,15 @@ print("-"*30)
 for key,value in my_dict.items():
     print('{0} : {1}'.format(key,value))
     
+  
+------------output-------------
+
+Enter key and value separated by colon (:) BookId:10001
+Enter key and value separated by colon (:) BookName:Python
+Enter key and value separated by colon (:) AuthorName:Swathi
+Enter key and value separated by colon (:) Price:1500
+------------------------------
+BookId : 10001
+BookName : Python
+AuthorName : Swathi
+Price : 1500
