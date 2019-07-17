@@ -12,3 +12,7 @@ print("Largest number among " + str(n1) + ", " +
             str(n2) + ", " + str(n3) + " and " + 
             str(n4) + " is " + str(mx))
 
+----------output---------------
+
+Largest number among 4000000, 1000000, 1500000 and 2000000 is 4000000
+
