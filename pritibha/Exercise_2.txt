@@ -1,0 +1,33 @@
+#Largest Number
+a=10
+b=20
+c=15
+x= (a if (a>b and a>c) else (b if (b>a and b>c) else c ))
+print(str(x))
+
+
+#(BookId, BookName, AuthorName and Price)
+#List
+lst = [ ] 
+n = int(input("Enter number of elements : "))   
+for i in range(0, n): 
+    ele = [int(input()), input(),input(),int(input())] 
+    lst.append(ele)      
+print(lst) 
+
+#Dictionary
+dictionary = {}
+for x in range(0,1):    
+   key =input('Enter new key: ')
+   value = input('Enter new value: ')
+   key1 = input('Enter new key1: ')
+   value1 = input('Enter new value1: ')
+   key2 = input('Enter new key2: ')
+   value2 = input('Enter new value2: ')
+   key3 = input('Enter new key3: ')
+   value3 = input('Enter new value3: ')
+   dictionary[key] = value
+   dictionary[key1] = value1
+   dictionary[key2] = value2
+   dictionary[key3] = value3  
+print(dictionary)
