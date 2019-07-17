@@ -133,5 +133,17 @@ with open("d:/demodata/data.csv","r")as f:
         print(row)
 
 
+#iterating dictionary with index,keys and values
+personAddress = { 
+                     'Rahul' : 'Haryana', 
+                     'Shakir' : 'Srinagar', 
+                     'Swathi' : 'Chennai', 
+                     'Divya' : 'Chennai',
+                     'Sachin':'Mumbaii'
+                    } 
+for i, (k, v) in enumerate(personAddress.items()):
+    print("index: {}, key: {}, value: {}".format(i, k, v))
+
+
         
     
