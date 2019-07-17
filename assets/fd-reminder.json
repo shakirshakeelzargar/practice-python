@@ -1,0 +1,263 @@
+[
+ {
+   "customer_id": 4313,
+   "customer_name": " Arul Prakash",
+   "matures_on": "28/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 6390,
+   "deposit_date": "15/07/16",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 1298,
+   "customer_name": " Usha Rani",
+   "matures_on": "29/07/19",
+   "amount_deposited": 2400,
+   "maturity_amount": 4982,
+   "deposit_date": "13/07/17",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 7642,
+   "customer_name": " Thiyagu",
+   "matures_on": "25/07/19",
+   "amount_deposited": 5400,
+   "maturity_amount": 8630,
+   "deposit_date": "13/07/16",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 9432,
+   "customer_name": " Alamelu",
+   "matures_on": "25/07/19",
+   "amount_deposited": 2200,
+   "maturity_amount": 4678,
+   "deposit_date": "10/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 9432,
+   "customer_name": "Jaivaradhan",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 6540,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 4132,
+   "customer_name": "Bharath",
+   "matures_on": "23/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 6540,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 4325,
+   "customer_name": "Roberta",
+   "matures_on": "24/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "15/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 4518,
+   "customer_name": "Deborah",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "13/07/17",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 4711,
+   "customer_name": "Marius",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "13/07/16",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 4904,
+   "customer_name": "Dekeno",
+   "matures_on": "25/07/19",
+   "amount_deposited": 1609,
+   "maturity_amount": 4022.5,
+   "deposit_date": "10/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 5097,
+   "customer_name": "Jalowin",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 5290,
+   "customer_name": "Baldhar",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 5483,
+   "customer_name": "Mesow",
+   "matures_on": "29/07/19",
+   "amount_deposited": 2400,
+   "maturity_amount": 6000,
+   "deposit_date": "15/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 5676,
+   "customer_name": "Linda",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "13/07/17",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 5869,
+   "customer_name": "Jersey",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "13/07/16",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 6062,
+   "customer_name": "Javin",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "10/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 6255,
+   "customer_name": "Kineo",
+   "matures_on": "22/07/19",
+   "amount_deposited": 2400,
+   "maturity_amount": 6000,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 6448,
+   "customer_name": "Plisto",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 6641,
+   "customer_name": "Barrack",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "15/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 6834,
+   "customer_name": "Jeevel",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "13/07/17",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 7027,
+   "customer_name": "Kaifo",
+   "matures_on": "22/07/19",
+   "amount_deposited": 1200,
+   "maturity_amount": 3000,
+   "deposit_date": "13/07/16",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 7220,
+   "customer_name": "Reito",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "10/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 7413,
+   "customer_name": "Beige",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 7606,
+   "customer_name": "Jasmie",
+   "matures_on": "25/07/19",
+   "amount_deposited": 2400,
+   "maturity_amount": 6000,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 7799,
+   "customer_name": "Placebo",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "10/07/15",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 7992,
+   "customer_name": "West",
+   "matures_on": "25/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "15/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 8185,
+   "customer_name": "Miner",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3200,
+   "maturity_amount": 8000,
+   "deposit_date": "13/07/17",
+   "deposit_type": "FD Scheme 2"
+ },
+ {
+   "customer_id": 8378,
+   "customer_name": "Mewto",
+   "matures_on": "25/07/19",
+   "amount_deposited": 2400,
+   "maturity_amount": 6000,
+   "deposit_date": "13/07/16",
+   "deposit_type": "FD Scheme 1"
+ },
+ {
+   "customer_id": 8571,
+   "customer_name": "Finote",
+   "matures_on": "22/07/19",
+   "amount_deposited": 3211,
+   "maturity_amount": 8027.5,
+   "deposit_date": "10/07/16",
+   "deposit_type": "FD Scheme 1"
+ }
+]
