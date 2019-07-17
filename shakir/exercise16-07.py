@@ -110,5 +110,28 @@ rrrrrrrrrrrr
 '''
 
 
+#To see the csv file from reverse
+for line in reversed(list(open("d:/demodata/data.csv","r"))):
+    print(line.rstrip()
+
+
+#MethoD2 to read csv file from url
+#https://github.com/swaathi/eda/blob/master/data.csv
+from urllib.request import urlopen, Request
+#headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3"}
+file_url = "https://raw.githubusercontent.com/swaathi/eda/master/data.csv"
+req = Request(url=file_url) 
+file = str(urlopen(req).read())
+print(file)
+
+
+#Read CSV file using csv library
+import csv
+with open("d:/demodata/data.csv","r")as f:
+    data = csv.reader(f)
+    for row in data:
+        print(row)
+
+
         
     
