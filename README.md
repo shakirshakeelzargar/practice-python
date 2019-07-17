@@ -17,10 +17,10 @@ The following are the areas will be covered in this Training Session
 	- [x] Strings & Formatting
 	- [x] Numbers, Mathematical Expressions
   - [x] Console Print and Comments
-- [ ] Conditionals
-- [ ] Functions
-- [ ] Dictionaries, Lists, Arrays & Tuples
-- [ ] File IO, Paths
+- [x] Conditionals
+- [x] Functions
+- [x] Dictionaries, Lists, Arrays & Tuples
+- [x] File IO, Paths
 - [ ] requirements.txt
 
 ### Intermediate
