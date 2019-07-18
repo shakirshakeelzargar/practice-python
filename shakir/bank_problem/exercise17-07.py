@@ -46,3 +46,14 @@ else:
 
 finally:
     print("Program executed")
+
+
+    #output
+'''
+Fetching file from url
+Getting template
+Template found
+Iterating data for each customer and creating files
+text files for users created successfully
+Program executed
+'''
