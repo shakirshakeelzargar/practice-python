@@ -1,0 +1,17 @@
+Dear  Arul Prakash
+
+    Here the details of your FD
+    
+    --
+    --
+    
+    This is the FD based on FD Scheme 2 . For this FD Scheme 2 you need to bring the following to collect the maturity amount.
+    
+    <INSTRUCTIONS SPECIFIC to SCHEME>
+   Matures_on: 28/07/19,
+   Amount_deposited: 3200,
+   Maturity_amount: 6390,
+   Deposit_date: 15/07/16
+       
+    Regards
+    ABC Bank

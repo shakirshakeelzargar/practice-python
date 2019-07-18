@@ -1,0 +1,17 @@
+Dear  Usha Rani
+
+    Here the details of your FD
+    
+    --
+    --
+    
+    This is the FD based on FD Scheme 1 . For this FD Scheme 1 you need to bring the following to collect the maturity amount.
+    
+    <INSTRUCTIONS SPECIFIC to SCHEME>
+   Matures_on: 29/07/19,
+   Amount_deposited: 2400,
+   Maturity_amount: 4982,
+   Deposit_date: 13/07/17
+       
+    Regards
+    ABC Bank
