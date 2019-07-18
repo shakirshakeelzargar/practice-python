@@ -31,11 +31,11 @@ else:
             print("Iterating data for each customer and creating files")
             for d in data:
             #print(d[view])
-                output = template.render(customerName=d['customer_name'],schemeName=d['deposit_type'],amountDeposited=d['amount_deposited'],maturityAmount=d['maturity_amount'],maturesOn=d['matures_on'],depositDate=d['deposit_date'],depositType=d['deposit_type'],truth=True)
+                output = template.render(dataCustomer=d)
                 #print(type(output))
                 ###########print(output)
                 #f=open("D:/python/practice-python/shakir/basic_jinja/"d['customer_name']"-"d['customer_id']".txt","w")
-                f=open("D:/python/practice-python/shakir/bank_problem/outputs/{}-{}.txt".format(d['customer_name'],d['customer_id']),"w+")
+                f=open("./outputs/{}-{}.txt".format(d['customer_name'],d['customer_id']),"w+")
                 f.write("{}".format(output))
         except:
             print("Some error in creating text files")

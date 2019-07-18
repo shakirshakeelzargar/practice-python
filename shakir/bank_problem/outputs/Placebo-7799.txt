@@ -9,7 +9,7 @@ Deposit Date : 10/07/15
 Deposit Type : FD Scheme 2
 --
 
-This is the FD based on FD Scheme 2. For this FD Scheme 2 you need to bring the following to collect the maturity amount.
+This is the FD based on FD Scheme 2 . For this FD Scheme 2 you need to bring the following to collect the maturity amount.
 
 
     Scheme 2 Documents
