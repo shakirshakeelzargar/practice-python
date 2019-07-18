@@ -1,3 +1,0 @@
-virtualenv==16.6.2
-Jinja2==2.10.1
-
