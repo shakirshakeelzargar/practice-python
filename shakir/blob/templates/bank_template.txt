@@ -1,0 +1,26 @@
+Dear {{dataCustomer.customer_name}}
+
+Here the details of your FD
+
+Amount Deposited : {{dataCustomer.amount_deposited}}
+Maturity Amount : {{dataCustomer.maturity_amount}}
+Matures on : {{dataCustomer.matures_on}}
+Deposit Date : {{dataCustomer.deposit_date}}
+Deposit Type : {{dataCustomer.deposit_type}}
+--
+
+This is the FD based on {{dataCustomer.deposit_type}} . For this {{dataCustomer.deposit_type}} you need to bring the following to collect the maturity amount.
+
+{% if dataCustomer.deposit_type=='FD Scheme 1' %}
+    Scheme 1 Documents
+    Adhaar Card
+    Pan Card
+{% else %}
+    Scheme 2 Documents
+    Pan Card
+    Original Passport
+{% endif %}
+
+
+Regards
+ABC Bank
