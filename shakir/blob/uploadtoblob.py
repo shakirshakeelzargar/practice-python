@@ -85,3 +85,16 @@ else:
 
 finally:
     print("Program executed")
+
+
+#Output
+'''
+Fetching file from url
+Getting template
+Template found
+Iterating data for each customer and creating files
+Uploading files to blob
+text files for users created successfully
+log generated in '/logs/log-2019-07-19.txt'
+Program successfully executed
+'''
