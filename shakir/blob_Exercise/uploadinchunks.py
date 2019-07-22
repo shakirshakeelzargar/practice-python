@@ -1,52 +1,70 @@
-from azure.storage.blob import BlockBlobService
-import base64
 import os
-accountey="pRy7Hsb9wIbCWkVRgrTioBRiPKuiTpGnoxmIZ7p5SUgMedIsT335m0ad7ap7m/SHoXf+85UUikrv5U2VWqpMyw=="
-accountName="storagesci"
-container_name="python-course"
-file_path='./files/file.csv'
-blob_name='sss.csv'
+import config
+#from random_data import RandomData
+import base64
+import datetime
+import random
+import string
 
-blob_service =BlockBlobService(account_name=accountName, account_key=accountey )
+import time
+from azure.storage import CloudStorageAccount, AccessPolicy
+from azure.storage.blob import BlockBlobService, PageBlobService, AppendBlobService
+from azure.storage.models import CorsRule, Logging, Metrics, RetentionPolicy, ResourceTypes, AccountPermissions
+from azure.storage.blob.models import BlobBlock, ContainerPermissions, ContentSettings
 
-def upload():
-    blob_service.create_container(container_name, None, None, False)
-    #blob_service.put_block_blob(container_name, blob_name, '', 'BlockBlob')
 
-    chunk_size = 65536
-    block_ids = []
-    index = 0
-    with open(file_path, 'rb') as f:
-        while True:
-            data = f.read(chunk_size)
-            if data:
-                length = len(data)
-                block_id = base64.b64encode(bytes(index))
-                blob_service.put_block(container_name, blob_name, data, block_id)
-                block_ids.append(block_id)
-                index += 1
-            else:
-                break
+def randomString(stringLength=32):
+    """Generate a random string of fixed length """
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for i in range(stringLength))
 
-    resp = blob_service.put_block_list(container_name, blob_name, block_ids)
+accountey="xxxxx"
+accountName="xxxx"
+container_name="xxxx"
 
-def download(blob_service, container_name, blob_name, file_path):
-    props = blob_service.get_blob_properties(container_name, blob_name)
-    blob_size = int(props['content-length'])
+blockblob_service = BlockBlobService(account_name=accountName, account_key=accountey )
 
-    chunk_size = 65536
-    index = 0
-    with open(file_path, 'wb') as f:
-        while index < blob_size:
-            range = 'bytes=' + str(index) + '-' + str(index + chunk_size - 1)
-            data = blob_service.get_blob(container_name, blob_name, x_ms_range=range)
-            length = len(data)
-            index += length
-            if length > 0:
-                f.write(data)
-                if length < chunk_size:
-                    break
-            else:
-                break
 
-upload()
+def block_blob_operations():
+        file_to_upload = "10MB.zip"
+        block_size = 2097152
+        
+        # Create an page blob service object
+        #blockblob_service = account.create_block_blob_service()
+        #container_name = 'python-course'
+
+        try:
+            # Create a new container
+            #print('1. Create a container with name - ' + container_name)
+            #blockblob_service.create_container(container_name)
+            
+            blocks = []
+            
+            # Read the file
+            print('2. Upload file to block blob')
+            with open(file_to_upload, "rb") as file:
+                file_bytes = file.read(block_size)
+                while len(file_bytes) > 0:
+                    block_id = randomString(10) 
+                    blockblob_service.put_block(container_name, file_to_upload, file_bytes, block_id)                    
+                    
+                    blocks.append(BlobBlock(id=block_id))
+                    
+                    file_bytes = file.read(block_size)
+            
+            blockblob_service.put_block_list(container_name, file_to_upload, blocks)
+            
+            print('3. Get the block list')
+            blockslist = blockblob_service.get_block_list(container_name, file_to_upload, None, 'all')
+            blocks = blockslist.committed_blocks
+
+            print('4. Enumerate blocks in block blob')
+            for block in blocks:
+                print('Block ' + block.id)
+        finally:
+            print("EXECUTED")
+            print(blocks)
+            #print('5. Delete container')
+            #if blockblob_service.exists(container_name):
+                #blockblob_service.delete_container(container_name)
+block_blob_operations()
