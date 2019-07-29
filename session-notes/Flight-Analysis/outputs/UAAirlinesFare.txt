@@ -1,0 +1,6 @@
+airline,flight_number,avg_price
+UA,581,456
+UA,225,345
+UA,259,654
+UA,416,324
+UA,457,653

@@ -1,0 +1,7 @@
+airline,flight_number,avg_price
+AUS,581,456
+AUS,225,345
+AUS,259,654
+AUS,416,324
+AUS,457,653
+IND,643,
